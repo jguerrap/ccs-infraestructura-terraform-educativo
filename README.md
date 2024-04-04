@@ -104,9 +104,45 @@ This template was developed for Consultec-ti.
 
 The following resources will be created by this Terraform configuration:
 
-**aws_codeartifact_repository:** Creates the CodeArtifact repository.
+**aws_cloudtrail:** aws_cloudtrail example_trail
 
-**aws_ecr_repository:** Creates the ECR repository.
+**aws_cloudwatch_dashboard:** aws_cloudwatch_dashboard example_dashboard
+
+**aws_dynamodb_table:** aws_dynamodb_table example_table
+
+**aws_iam_policy:** aws_iam_policy example_policy
+
+**aws_iam_role_policy_attachment:** aws_iam_role_policy_attachment example_policy_attachment
+
+**aws_kinesis_analytics_application:** aws_kinesis_analytics_application example_analytics_app
+
+**aws_kinesis_firehose_delivery_stream:** aws_kinesis_firehose_delivery_stream example_firehose
+
+**aws_kinesis_stream:** aws_kinesis_stream example_stream
+
+**aws_kinesis_video_stream:** aws_kinesis_video_stream example_stream
+
+**aws_lambda_function:** aws_lambda_function example_lambda
+
+**aws_redshift_cluster:** aws_redshift_cluster example_redshift_cluster
+
+**aws_s3_bucket:** aws_s3_bucket my_bucket
+
+**aws_sns_topic:** aws_sns_topic example_topic
+
+**aws_sns_topic_subscription:** aws_sns_topic_subscription example_subscription
+
+**aws_sqs_queue:** aws_sqs_queue example_queue
+
+**aws_ecs_cluster:** aws_ecs_cluster my_cluster
+
+**aws_api_gateway_rest_api:** aws_api_gateway_rest_api my_api
+
+**aws_lb:** aws_lb my_nlb
+
+**aws_rds_cluster:** aws_rds_cluster my_cluster
+
+**aws_cloudfront_distribution:** aws_cloudfront_distribution my_distribution
 
 ## Authors
 
